@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 df=pd.read_csv("customer_data.csv")
 
 #feature selection 
-x=df[["Age","Income","Score"]]
+x=df[["Income","Score"]]
 
 #scaling
 scaler=StandardScaler()
